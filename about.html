@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
+    </head>
+    <body>
+    
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="hero-section" style ="max-height:400px ;">
+            <div class="hero-text">
+                <h1>About Us</h1>
+                <p>At Vibes, we believe that music and community can make a positive impact on people's lives. Join us to discover new music, connect with like-minded people, and spread good vibes. We are a team of professionals dedicated to creating high-quality websites and applications.</p>
+            </div>
+        </div>
+<!--     
+        <div class="about-section">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed malesuada orci, sit amet sollicitudin nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Praesent ut libero pharetra, hendrerit metus at, cursus mauris. Maecenas fringilla malesuada ante, id ultrices magna finibus id.</p>
+                <p>Sed convallis lorem ex, vel volutpat est fringilla sit amet. Vivamus eu felis ac elit tristique auctor vel vel mauris. Nulla vulputate accumsan aliquet. Nam quis risus ut mauris pharetra vestibulum ut in risus. Pellentesque sit amet ante posuere, aliquam dolor non, varius tortor. Praesent ut congue ex. Curabitur id massa sagittis, feugiat libero at, interdum sapien. Morbi cursus, metus in laoreet lobortis, nibh enim aliquam ante, nec dictum elit augue at elit.</p>
+            </div> -->
+    
+            <!-- <div class="about-image">
+                <img src="about.jpg" alt="About Us">
+            </div>
+        </div>
+     -->
+<hr>
+    <h3 style=" margin-top:20px;text-align:center;">Contact Form</h3>
+    
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    </body>
+    </html>
+
